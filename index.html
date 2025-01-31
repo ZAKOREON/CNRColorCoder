@@ -8,10 +8,16 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="header" id="header"></div>
+      <div class="header">
+        <div id="header"></div>
+        <div class="setting" onclick="openEditor()"></div>
+      </div>
       <div class="color-code-list" id="colorCodeList"></div>
     </div>
-    <!-- Import JS -->
+    <div class="editor hide" id="editor">
+      <textarea class="editor-textarea" id="editorTextarea" aria-label="textarea"></textarea>
+    </div>
+
     <script src="script.js" defer></script>
   </body>
 </html>

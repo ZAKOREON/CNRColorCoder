@@ -60,7 +60,7 @@ body {
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  background-image: url("../Icons/setting.png");
+  background-image: url("setting.png");
   background-size: cover;
   background-position: center;
   cursor: pointer;
